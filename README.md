@@ -1,0 +1,2 @@
+# HashDupla
+Estrutura hash básica
