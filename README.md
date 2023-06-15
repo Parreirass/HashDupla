@@ -9,18 +9,20 @@ Quando ocorre uma colisão, ou seja, duas chaves diferentes são mapeadas para o
 
 A seleção de posição de ordenação é feita a partir do módulo da divisão (resto) da chave pelo número de elementos máximos do vetor, que deve ser um número primo. Caso tenha uma colisão, esse valor é multiplicado por um número "grande", no caso `100`, e é feita novamente essa divisão a fim de encontrar uma nova posição. Caso ocorra uma nova colisão, esse valor a ser multiplicado é sempre aumentado e o processo de divisão citado são repetidos até que não ocorra colisão.
 
-Descrição
+![Hash DUpla](https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Hash_table_4_1_1_0_0_1_0_LL.svg/293px-Hash_table_4_1_1_0_0_1_0_LL.svg.png)
+
+ ## Descrição
 Este é um programa simples em C++ que calcula e exibe a posição de um elemento com `valor` e `chave` em uma tabela hash.
 
-Instruções de Compilação
+## Instruções de Compilação
 Para compilar e executar o programa, siga estas etapas:
 
-1- Abra um editor de código e copie o código-fonte acima para um novo arquivo com a extensão .cpp, por exemplo, hash.cpp.
-2- Abra um terminal ou prompt de comando.
-3- Navegue até o diretório onde o arquivo hash.cpp está localizado usando o comando cd.
-4- Execute o comando de compilação, por exemplo, g++ -o hash hash.cpp (considerando que você tenha o GCC instalado).
-5- Após a compilação bem-sucedida, execute o programa com ./hash.
-6- Digite a chave e o valor que serão requeridos no sistema.
-7- A posição no vetor será exibida.
+- Abra um editor de código e copie o código-fonte acima para um novo arquivo com a extensão .cpp, por exemplo, hash.cpp.
+- Abra um terminal ou prompt de comando.
+- Navegue até o diretório onde o arquivo hash.cpp está localizado usando o comando cd.
+- Execute o comando de compilação, por exemplo, g++ -o hash hash.cpp (considerando que você tenha o GCC instalado).
+- Após a compilação bem-sucedida, execute o programa com ./hash.
+- Digite a chave e o valor que serão requeridos no sistema.
+- A posição no vetor será exibida.
 
-*Certifique-se de ter um compilador C++ instalado e configurado corretamente em seu ambiente de desenvolvimento antes de executar o programa.
+*Certifique-se de ter um compilador C++ instalado e configurado corretamente em seu ambiente de desenvolvimento antes de executar o programa.*
